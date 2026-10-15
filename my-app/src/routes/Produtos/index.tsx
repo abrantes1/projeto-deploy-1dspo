@@ -62,7 +62,7 @@ export default function Produtos() {
       <h2>Produtos</h2>
       <div className="flex">
         {produtos.map((p) => (
-          <ProdutoCard produto={p}  />
+          <ProdutoCard key={p.id} produto={p} />
         ))}
       </div>
 

@@ -4,8 +4,9 @@ export interface TipoProduto {
     id: number,
     nome: string,
     preco: number,
-    estoque: string,
+    estoque?: string,
     avatar: string,
+    descricao?: string,
 }
 
 export interface TipoProdutoAll {
