@@ -1,1 +1,17 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+
+@layer base {
+  container {
+    @apply bg-gray-900 text-white flex justify-center;
+
+    & headear {
+      @apply bg-gray-900;
+    }
+    & cabecalho {
+      @apply bg-gray-900;
+    }
+    & Rodape {
+      @apply bg-gray-900;
+    }
+  }
+}
